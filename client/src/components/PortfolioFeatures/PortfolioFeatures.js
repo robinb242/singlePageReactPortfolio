@@ -27,8 +27,8 @@ const PortfolioFeatures =() => (
                      <Grid.Column>
                      <Card id="intoTemptationCard">
                          <Image src={require('../../assets/images/intoTemptation.png')} size="medium" href="https://www.youtube.com/watch?v=AOwy16r4FKI" rel="noreferrer noopener" target="_blank" alt="Into Temptation" />
-                        <h3>Into Temptation
-                        </h3>
+                        <h5>Into Temptation
+                        </h5>
                         <p>Second Assistant Director: The first feature length film I worked on. Starring Jeremy Sisto and Kristin Chenoweth.
                          Directed by Patrick Coyle.</p>
                     </Card>
@@ -40,8 +40,8 @@ const PortfolioFeatures =() => (
                 <Grid.Column>
                     <Card id="publicDomainCard">
                        <Image src={require('../../assets/images/publicDomain.png')} size="medium" href="http://www.dailymotion.com/video/x5afyer" rel="noreferrer noopener" target="_blank" alt="The Public Domain"/>
-                        <h3>The Public Domain
-                        </h3>
+                        <h5>The Public Domain
+                        </h5>
                         <p>First Assistant Director: The second film I made with Patrick Coyle. Staring an ensemble cast featuring Emily Bridges.</p>
                     </Card>
                      </Grid.Column>
@@ -49,8 +49,8 @@ const PortfolioFeatures =() => (
                      <Grid.Column>
                         <Card id="jingleDressCard">
                          <Image src={require('../../assets/images/jingleDress2.png')} size="medium" href="https://www.youtube.com/watch?v=JdASEjOjJCU" rel="noreferrer noopener" target="_blank" alt="The Jingle Dress"/>
-                        <h3>The Jingle Dress
-                        </h3>
+                        <h5>The Jingle Dress
+                        </h5>
                         <p>First Assistant Director: A film partially financed by a Minnesota State Arts and Culture Grant. Explores the Native American experience
                         leaving the reservation and coming to the city.</p>
                         </Card>

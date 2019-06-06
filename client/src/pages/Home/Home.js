@@ -1,7 +1,10 @@
 import React from "react";
 import { Grid, Container, Segment, Image } from 'semantic-ui-react';
 import "./Home.css";
-
+import Portfolio from '../Portfolio/Portfolio';
+import Resume from '../Resume/Resume';
+import SlickDev from '../../components/SlickDev/SlickDev';
+import Contact from '../Contact/Contact';
 
 
 /* MAIN BODY*/ 
@@ -124,9 +127,17 @@ discuss this position. Thank you for considering speaking with me about how I ca
  </h5>
   </Segment>
 
+ 
+      <Portfolio />
+      <div>
+       <SlickDev />
+       </div>
+      <Contact />
+      <Resume />
+
     </div>
 
-
+  
 
 
 

@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "installDeps": "yarn && cd client && yarn"
   },
-  "repository": "git@github.com:robinb242/reactPortfolioLive.git",
+  "repository": "git@github.com:robinb242/singlePageReactPortfolio.git",
   "author": "Robin Bertuccelli <robin.bertuccelli@gmail.com>",
   "license": "MIT",
   "dependencies": {
