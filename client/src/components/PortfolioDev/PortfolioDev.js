@@ -10,7 +10,8 @@ const PortfolioDev =() => (
 <Container>
     <div>
     <Segment id="segmentContainer">
-    <h1>Web Applications</h1>
+    <h1>Portfolio</h1>
+    <h2>Web Applications</h2>
     <hr />
         <Grid>
             <Grid.Row columns={2}>
@@ -59,7 +60,7 @@ const PortfolioDev =() => (
              <Grid.Row columns={2}>
                   <Grid.Column>
                       <Card className="portfolioCard" id="nytReactSearchCard">
-                         <Image src={require('../../assets/images/nyt-react-search4x3.png')} size="medium" href="https://polar-crag-19379.herokuapp.com/" rel="noreferrer noopener" target="_blank" />
+                         <Image src={require('../../assets/images/nyt-react-search4x3.png')} size="medium" href="https://thawing-atoll-98049.herokuapp.com/" rel="noreferrer noopener" target="_blank" />
                         <h5>New York Times Aricle Search</h5>
                        
                         <p>Search The New York Times Archives
@@ -78,7 +79,7 @@ const PortfolioDev =() => (
                  </Grid.Column>
             </Grid.Row>
         </Grid>
-        </Segment>
+    </Segment>
     </div>
 </Container>
 

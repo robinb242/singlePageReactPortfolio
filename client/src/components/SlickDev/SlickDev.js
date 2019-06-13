@@ -6,9 +6,7 @@ import "./slick.css";
 import "./slick-theme.css";
 import "./docs.css"; 
 import "./SlickDev.css";
-import {
-   Container, Grid, Image, Card, Segment
-} from 'semantic-ui-react';
+import {Image, Card,} from 'semantic-ui-react';
 
 export default class SlickDev extends Component {
   render() {

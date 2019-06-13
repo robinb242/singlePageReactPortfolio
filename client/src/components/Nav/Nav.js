@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import { Menu, Dropdown, Image } from 'semantic-ui-react';
+import { Menu, Image } from 'semantic-ui-react';
 import "./Nav.css";
 import { Link } from "react-router-dom";
 
