@@ -8,8 +8,8 @@ class Contact extends React.Component {
 
   render() {
     return (
-    	<div class="container">
-	<p class="lead"> You may contact me via social media links in the navigation bar, or e-mail me at <a href="mailto:robin.bertuccelli@gmail.com">robin.bertuccelli@gmail.com</a>
+    	<div className="container">
+	<p className="lead"> You may contact me via social media links in the navigation bar, or e-mail me at <a href="mailto:robin.bertuccelli@gmail.com">robin.bertuccelli@gmail.com</a>
     </p>
 </div>
 );

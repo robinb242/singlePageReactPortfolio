@@ -1,13 +1,41 @@
 #candiMatchCard {
+	display: inline-flex;
 	background: #CCCCCC;
 
 }
 
 #walkingDeadCard {
 	background: #CCCCCC;
+	display: inline-flex;
+	
 }
 
 #petMatchCard {
 	background: #CCCCCC;
 
+}
+#segmentContainer {
+	border: none;
+}
+.portfolioCard {
+	background: #CCCCCC;
+}
+#nytReactSearchCard {
+	background: #CCCCCC;
+}
+
+#myShinDigCard {
+	background: #CCCCCC;
+}
+
+#officialPortfolioCard {
+	background: #CCCCCC;
+}
+
+h5 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h1 {
+	text-decoration: underline;
 }

@@ -50,21 +50,21 @@ export default class SocialSideNav extends Component {
         <Menu vertical id='vertMenuContainer'>
 
           <Menu.Item href='https://www.facebook.com/robin.bertuccelli/' rel="noreferrer noopener" target='_blank' className='socialIcons'>
-            <Image src={require('../../assets/images/if_facebook.png')}  alt="Facebook" size='small' />
+            <Image src={require('../../assets/images/icons/if_facebook.png')}  alt="Facebook" size='small' />
           </Menu.Item>
 
           <Menu.Item href='https://github.com/robinb242' rel="noreferrer noopener" target='_blank' className='socialIcons'>
-            <Image src={require('../../assets/images/if_social-github.png')}  alt="Github" size='small' />
+            <Image src={require('../../assets/images/icons/if_social-github.png')}  alt="Github" size='small' />
           </Menu.Item>
           
 
           <Menu.Item href='https://www.linkedin.com/in/robin-bertuccelli/' rel="noreferrer noopener" target='_blank' className='socialIcons'>
-            <Image src={require('../../assets/images/if_linkedin.png')}  alt="LinkedIn" size='small' />
+            <Image src={require('../../assets/images/icons/if_linkedin.png')}  alt="LinkedIn" size='small' />
           </Menu.Item>
           
 
           <Menu.Item href='https://www.imdb.com/name/nm3031887/?ref_=fn_al_nm_1' rel="noreferrer noopener" target='_blank' className='socialIcons'>
-            <Image src={require('../../assets/images/imdb.png')}  alt="IMDB" size='small' />
+            <Image src={require('../../assets/images/icons/imdb.png')}  alt="IMDB" size='small' />
           </Menu.Item>
         
        </Menu>

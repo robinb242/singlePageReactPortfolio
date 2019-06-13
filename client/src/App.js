@@ -10,7 +10,8 @@ import Portfolio from './pages/Portfolio/Portfolio';
 import Home from './pages/Home/Home';
 import Resume from './pages/Resume/Resume';
 import Contact from './pages/Contact/Contact';
-import SocialSideNav from './components/SocialSideNav/SocialSideNav';
+
+
 
 import "./App.css";
 
@@ -29,6 +30,8 @@ const App = () => (
 
       </Switch>
 
+    
+      
       
       <Footer />
       </Container>
