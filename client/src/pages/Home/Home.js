@@ -22,19 +22,22 @@ class Home extends React.Component {
      </Container>
      <Segment textAlign ="center">
      <Container>
+     <Image id="robinsDesk" src={require('../../assets/images/1stSnowCrop.jpg')} />
+     <Container id="headShotIntroText">
     <Image id="robinCircleLeft" src={require('../../assets/images/BertuccelliRobin3Circle2.png')}  floated='left' size='medium' alt='Robin Bertuccelli' />
-    <span className="overlay">My Name is John</span>
-    </Container>
-    <h2>
+    <span className="overlay">Robin Bertuccelli Test</span>
+    <h3 id="paragrapgOne">
       Hello and thanks for stopping by. I am a Full Stack Developer with 12 years experience creating media for multiple platforms. I prefer
       a minimalist aesthetic and this approach seems optimal for 90% of the websites I have built. A little bling is fun, but design should 
       complement function and intuitiveness.
-    </h2>
+    </h3>
    
-    <h2>
+    <h3 id="paragraph2">
      I write code that facilitates the consumption of data. Humans strive to build things, in the 21st century we build with code. I spend my days trying to find the best way to talk to 
      machines. Below is a table of some of the technologies I have used in developing projects.
-    </h2> 
+    </h3> 
+     </Container>
+      </Container>
   </Segment>
 {/* Table of technologies */}
 
@@ -102,7 +105,7 @@ class Home extends React.Component {
   <Segment>
   <h5>
 I am seeking a position as a Web Developer. I am quite focused about making my career in the web development sector. I have recently graduated from 
-the Full Stack Web Development Bootcamp at the University of Minnesota. Though I am an entry-level candidate, I have sound knowledge about HTML5, CSS, Javascript, 
+the Full Stack Web Development Bootcamp at the University of Minnesota. I have sound knowledge about HTML5, CSS, Javascript, 
 JQuery, Bootstrap, Node.js, MYSQL, MongoDB, React.js, as well as the Drupal CMS. The program was six months of intense exposure to the foundations of web development 
 and technologies on the cutting edge. 
 <br></br>
@@ -129,16 +132,19 @@ discuss this position. Thank you for considering speaking with me about how I ca
 
  
       <Portfolio />
+
+      {/*}
       <div>
-       <SlickDev />
-       </div>
-      <Contact />
-      <Resume />
+        <SlickDev />
+      </div>
 
-    </div>
+      <div>
+        <Contact />
+        <Resume />
+      </div>
 
-  
-
+    */}
+</div>
 
 
 

@@ -3,7 +3,7 @@ const db = require("../models");
 
 // This file empties the Books collection and inserts the books below
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/candiMatch");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/candiMatch", { useNewUrlParser: true });
 
 const userSeed = [
   {

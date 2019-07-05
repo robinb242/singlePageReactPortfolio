@@ -24,9 +24,10 @@ const App = () => (
         <Switch>
 
           <Route exact path='/' component={Home} />
-          <Route path='/portfolio' component={Portfolio} />
+          <Route path='/portfolio' component={Portfolio} /> 
           <Route path='/resume' component={Resume} />
-          <Route path='/contact' component={Contact} />
+          <Route path='/contact' component={Contact} /> 
+        
 
       </Switch>
 
