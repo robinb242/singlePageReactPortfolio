@@ -1,7 +1,26 @@
 #robinCircleLeft {
-	position: relative
+	position: relative;
+  padding-left: 3px;
+  width: 175px;
 }
 
+#headShotIntroText {
+  position: absolute;
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: wrap;
+  background: rgba(255,255,255, .2);
+  color: #000000;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#robinsDesk {
+  
+}
 .overlay {
   position: absolute; 
   bottom: 0; 

@@ -1,6 +1,6 @@
 
-import React, { Component } from 'react';
-import { Menu, Image } from 'semantic-ui-react';
+import React, { Component, createRef } from 'react';
+import { Menu, Image, Sticky } from 'semantic-ui-react';
 import "./Nav.css";
 import { Link } from "react-router-dom";
 
@@ -14,8 +14,9 @@ export default class Nav extends Component {
     const { activeItem } = this.state
 
     return (
+      
     
-      <Menu id="NavMenu">
+      <Menu fixed='top' id="NavMenu">
         <Menu.Item header>Robin Bertuccelli <br /> Web Developer</Menu.Item>
         <Menu.Item 
           name='home'
@@ -27,23 +28,23 @@ export default class Nav extends Component {
 
     
       <Menu.Item
-      name='portfolio'
-      active={activeItem ==='portfolio'}
-      onClick={this.handleItemClick}>
-      <Link to='/portfolio' className='nav-link'> Portfolio </Link>
+        name='portfolio'
+        active={activeItem ==='portfolio'}
+        onClick={this.handleItemClick}>
+        <Link to='/portfolio' className='nav-link'> Portfolio </Link>
       </Menu.Item>
 
         <Menu.Item 
-        name='resume' 
-        active={activeItem === 'resume'} 
-        onClick={this.handleItemClick}>
-         <Link to="/resume" className="nav-link">  Resume </Link>
+          name='resume' 
+          active={activeItem === 'resume'} 
+          onClick={this.handleItemClick}>
+          <Link to="/resume" className="nav-link">  Resume </Link>
          </Menu.Item>
 
          <Menu.Item name='contact' 
-         active={activeItem === 'contact'} 
-         onClick={this.handleItemClick}>
-         <Link to="/contact" className="nav-link">  Contact </Link>
+          active={activeItem === 'contact'} 
+          onClick={this.handleItemClick}>
+          <Link to="/contact" className="nav-link">  Contact </Link>
          </Menu.Item>
 
         <Menu.Menu position='right'>
@@ -61,6 +62,7 @@ export default class Nav extends Component {
           </Menu.Item>
         </Menu.Menu>
       </Menu>
+
      
     )
   }
