@@ -30,7 +30,7 @@ const PortfolioFeatures =() => (
                         <h5>Into Temptation
                         </h5>
                         <p>Second Assistant Director
-                         Directed by Patrick Coyle.</p>
+                         </p>
                     </Card>
                  </Grid.Column>
             </Grid.Row>

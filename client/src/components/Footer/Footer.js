@@ -7,7 +7,7 @@ const Footer = () => (
   <div className="ui vertical footer segment" id="footer">
         <div className="ui center aligned container">
             <footer>
-                <h5 id="footerTitle" className="ui header">&copy; Copyright 2018 | All rights reserved | Robin Bertuccelli</h5>
+                <h5 id="footerTitle"> &copy; Copyright 2018 | All rights reserved | Robin Bertuccelli</h5>
                 <a href='https://www.facebook.com/robin.bertuccelli/' target="blank">
                 <Icon name='facebook square' size='large' />
                 </a>

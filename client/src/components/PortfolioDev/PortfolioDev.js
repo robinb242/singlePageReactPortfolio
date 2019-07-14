@@ -10,7 +10,7 @@ const PortfolioDev =() => (
 <Container>
     <div>
     <Segment id="segmentContainer">
-    <h1>Portfolio</h1>
+    <h1>PORTFOLIO</h1>
     <h2>Web Applications</h2>
     <hr />
         <Grid>
@@ -20,7 +20,7 @@ const PortfolioDev =() => (
                     <Card className="portfolioCard" id="candiMatchCard">
                        <Image src={require('../../assets/images/candiMatch4x3.png')} size="medium" href="https://protected-lake-93815.herokuapp.com/" rel="noreferrer noopener" target="_blank" />
                         <h5>CandiMatch</h5>
-                        <p>Minnesota Gubernatorial Candidate Matching Quiz</p>
+                        <p>Minnesota Candidate Matching Quiz</p>
                     </Card>
                  </Grid.Column>
 
@@ -38,9 +38,9 @@ const PortfolioDev =() => (
                   <Grid.Column>
                       <Card className="portfolioCard" id="petMatchCard">
                          <Image src={require('../../assets/images/petMatch4x3.png')} size="medium" href="https://pet-match-app.herokuapp.com/" rel="noreferrer noopener" target="_blank" />
-                        <h5>AdoptMeNow - Rescue pet finding app. </h5>
+                        <h5>AdoptMeNow</h5>
                        
-                        <p>Recommends a pet breed based on lifestyle quiz.
+                        <p>Rescue pet finding app. 
 
                          </p>
 

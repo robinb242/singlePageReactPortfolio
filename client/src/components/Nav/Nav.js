@@ -17,13 +17,13 @@ export default class Nav extends Component {
       
     
       <Menu fixed='top' id="NavMenu">
-        <Menu.Item header>Robin Bertuccelli <br /> Web Developer</Menu.Item>
+        <Menu.Item header><h3>Robin Bertuccelli <br /> Web Developer </h3></Menu.Item>
         <Menu.Item 
           name='home'
           active={activeItem === 'home'}
           onClick={this.handleItemClick}>
 
-        <Link to="/" className="nav-link">  Home </Link> 
+        <Link to="/" className="nav-link">  <h3>Home</h3> </Link> 
            </Menu.Item> 
 
     
@@ -31,20 +31,20 @@ export default class Nav extends Component {
         name='portfolio'
         active={activeItem ==='portfolio'}
         onClick={this.handleItemClick}>
-        <Link to='/portfolio' className='nav-link'> Portfolio </Link>
+        <Link to='/portfolio' className='nav-link'> <h3>Portfolio</h3> </Link>
       </Menu.Item>
 
         <Menu.Item 
           name='resume' 
           active={activeItem === 'resume'} 
           onClick={this.handleItemClick}>
-          <Link to="/resume" className="nav-link">  Resume </Link>
+          <Link to="/resume" className="nav-link">  <h3>Resume</h3> </Link>
          </Menu.Item>
 
          <Menu.Item name='contact' 
           active={activeItem === 'contact'} 
           onClick={this.handleItemClick}>
-          <Link to="/contact" className="nav-link">  Contact </Link>
+          <Link to="/contact" className="nav-link">  <h3>Contact</h3> </Link>
          </Menu.Item>
 
         <Menu.Menu position='right'>
