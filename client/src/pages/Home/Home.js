@@ -34,14 +34,41 @@ class Home extends React.Component {
    
     <h3 id="paragraph2">
      I write code that facilitates the consumption of data. Humans strive to build things, in the 21st century we build with code. I spend my days trying to find the best way to talk to 
-     machines. Below is a table of some of the technologies I have used in developing projects.
+     machines.
     </h3> 
      </Container>
       </Container>
   </Segment>
-{/* Table of technologies */}
 
-<Segment>
+  <Segment>
+  <h5>
+I am seeking a position as a Web Developer. I am quite focused on making my career in the web development sector. I have recently graduated from 
+the Full Stack Web Development Bootcamp at the University of Minnesota. I have sound knowledge about HTML5, CSS, Javascript, 
+JQuery, Bootstrap, Node.js, MYSQL, MongoDB, React.js, as well as the Drupal CMS. The program was six months of intense exposure to the foundations of web development 
+and technologies on the cutting edge. 
+<br></br>
+<br></br>
+My past experience has given me many skills that will transfer well into a team development environment. I have gained a well rounded perspective of every facet of media 
+production over the past eleven years in freelance filmmaking. As an Assistant Director and Producer I am responsible for scheduling production and shoots, managing the 
+shoot, and am the main point of contact for communication between creative departments and clients. I balance the desire to create the highest quality possible media product
+while being aware of the project objectives and the constraints of a budget . A list of a few of the projects I have worked on is included in my resume.  
+<br></br>
+<br></br>
+I also have experience working for a large publicly traded company as a Systems Integrator and Team Leader at Whole Foods Market. My experience with Whole Foods was quite 
+dynamic. In the period I worked there, the company “grew up”, and my role evolved as well. The job was initially hands on hardware, software, network, database support.
+My role evolved into being a communicator, trying to find the best way to increase automation or information access and managing an implementation team. I
+am very good at trouble shooting challenges and quickly understand how a new software system can be utilized to increase efficiency. I was rewarded for my work buy being 
+recognized as a Team All-Star.
+<br></br>
+<br></br>
+While I have enjoyed the freedom to work on many different projects as a freelancer, I am seeking a more permanent position or long term project. I believe the breadth of
+my experience covers the skills you are looking for in this position. I am very interested in this position and look forward to speaking with a company representative to 
+discuss this position. Thank you for considering speaking with me about how I can serve your company.
+
+ </h5>
+  </Segment>
+{/* Table of technologies */}
+  <Segment>
 
     <Grid columns={6}>
     
@@ -100,34 +127,6 @@ class Home extends React.Component {
       </Grid.Row>
     
     </Grid>
-  </Segment>
-
-  <Segment>
-  <h5>
-I am seeking a position as a Web Developer. I am quite focused about making my career in the web development sector. I have recently graduated from 
-the Full Stack Web Development Bootcamp at the University of Minnesota. I have sound knowledge about HTML5, CSS, Javascript, 
-JQuery, Bootstrap, Node.js, MYSQL, MongoDB, React.js, as well as the Drupal CMS. The program was six months of intense exposure to the foundations of web development 
-and technologies on the cutting edge. 
-<br></br>
-<br></br>
-My past experience has given me many skills that will transfer well into a team development environment. I have gained a well rounded perspective of every facet of media 
-production over the past eleven years in freelance filmmaking. As an Assistant Director and Producer I am responsible for scheduling production and shoots, managing the 
-shoot, and am the main point of contact for communication between creative departments and clients. I balance the desire to create the highest quality possible media product
-while being aware of the project objectives and the constraints of a budget . A list of a few of the projects I have worked on is included in my resume.  
-<br></br>
-<br></br>
-I also have experience working for a large publicly traded company as a Systems Integrator and Team Leader at Whole Foods Market. My experience with Whole Foods was quite 
-dynamic. In the period I worked there, the company “grew up”, and my role evolved as well. The job was initially hands on hardware, software, network, database support.
-My role evolved into being a communicator, trying to find the best way to increase automation or information access and managing an implementation team. I
-am very good at trouble shooting challenges and quickly understand how a new software system can be utilized to increase efficiency. I was rewarded for my work buy being 
-recognized as a Team All-Star.
-<br></br>
-<br></br>
-While I have enjoyed the freedom to work on many different projects as a freelancer, I am seeking a more permanent position or long term project. I believe the breadth of
-my experience covers the skills you are looking for in this position. I am very interested in this position and look forward to speaking with a company representative to 
-discuss this position. Thank you for considering speaking with me about how I can serve your company.
-
- </h5>
   </Segment>
 
  
