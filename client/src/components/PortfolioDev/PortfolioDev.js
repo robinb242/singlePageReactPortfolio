@@ -7,12 +7,13 @@ import './PortfolioDev.css';
 
 const PortfolioDev =() => (
   
-<Container>
+
     <div>
+    <Container id="container">
     <Segment id="segmentContainer">
     <h1>PORTFOLIO</h1>
     <h2>Web Applications</h2>
-    <hr />
+    
         <Grid>
             <Grid.Row columns={2}>
 
@@ -80,8 +81,9 @@ const PortfolioDev =() => (
             </Grid.Row>
         </Grid>
     </Segment>
+    </Container>
     </div>
-</Container>
+
 
 );
 

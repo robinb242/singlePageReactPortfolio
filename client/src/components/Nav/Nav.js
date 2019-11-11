@@ -1,6 +1,6 @@
 
 import React, { Component, createRef } from 'react';
-import { Menu, Image, Sticky } from 'semantic-ui-react';
+import { Menu, Image, Sticky, Container, Segment } from 'semantic-ui-react';
 import "./Nav.css";
 import { Link } from "react-router-dom";
 
@@ -14,9 +14,8 @@ export default class Nav extends Component {
     const { activeItem } = this.state
 
     return (
-      
-    
-      <Menu fixed='top' id="NavMenu">
+
+      <Menu fixed='top' id="navMenu">
         <Menu.Item header><h3>Robin Bertuccelli <br /> Web Developer </h3></Menu.Item>
         <Menu.Item 
           name='home'
@@ -62,8 +61,6 @@ export default class Nav extends Component {
           </Menu.Item>
         </Menu.Menu>
       </Menu>
-
-     
     )
   }
 }
