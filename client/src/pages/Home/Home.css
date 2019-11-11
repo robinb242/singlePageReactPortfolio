@@ -1,21 +1,23 @@
-h5::first-letter {
+h3::first-letter {
   font-weight: bolder;
+  }
+h3 {
+  line-height: 1.6;
 }
 
 #robinCircleLeft {
 	position: relative;
-  padding-left: 3px;
-  width: 175px;
+  padding-left: 30px;
+  width: 200px;
 }
 
 #headShotIntroText {
   position: absolute;
-  top: 74%;
+  top: 82%;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: wrap;
-  background: rgba(204,204,204, .3);
-  color: #000000;
+
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;

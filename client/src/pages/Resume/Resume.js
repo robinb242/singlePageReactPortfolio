@@ -11,7 +11,7 @@ const options = {
 
 class Resume extends Component {
   state = {
-    file: '/techResume.pdf',
+    file: '/techCLResume.pdf',
     numPages: null,
   }
 
@@ -43,7 +43,7 @@ class Resume extends Component {
                   new Array(numPages),
                   (el, index) => (
                     <Page
-                      key={`page_${index + 1}`}
+
                       pageNumber={index + 1}
                     />
                   ),
@@ -52,8 +52,8 @@ class Resume extends Component {
             </Document>
           </div>
         </div>
-        <object data="techResume.pdf" type="application/x-pdf" title="SamplePdf" width="500" height="720">
-    <a href="techResume.pdf">Print Resume</a> 
+        <object data="techCLResume.pdf" type="application/x-pdf" title="SamplePdf" width="500" height="720">
+    <a href="techCLResume.pdf">Print Resume</a> 
 </object>
       </div>
     );

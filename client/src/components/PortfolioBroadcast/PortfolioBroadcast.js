@@ -11,7 +11,6 @@ const PortfolioBroadcast =() => (
     <div>
     <Segment>
     <h2 id="title"> Broadcast Commercials</h2>
-    <hr />
         <Grid>
             <Grid.Row columns={2}>
                 <Grid.Column>
