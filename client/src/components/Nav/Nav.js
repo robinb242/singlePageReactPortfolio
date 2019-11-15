@@ -1,6 +1,6 @@
 
 import React, { Component, createRef } from 'react';
-import { Menu, Image, Sticky, Container, Segment } from 'semantic-ui-react';
+import { Menu, Image, Sticky, Container, Segment, Responsive, Dropdown, Icon } from 'semantic-ui-react';
 import "./Nav.css";
 import { Link } from "react-router-dom";
 
@@ -14,8 +14,10 @@ export default class Nav extends Component {
     const { activeItem } = this.state
 
     return (
-
-      <Menu fixed='top' id="navMenu">
+      <div>
+  <div>  
+    <Container id="navContainerDesktop">
+      <Menu fixed='top' id="navMenuDesktop">
         <Menu.Item header><h3>Robin Bertuccelli <br /> Web Developer </h3></Menu.Item>
         <Menu.Item 
           name='home'
@@ -61,6 +63,31 @@ export default class Nav extends Component {
           </Menu.Item>
         </Menu.Menu>
       </Menu>
+    </Container>
+  </div>
+
+    <div>
+      <Container id="navContainerMobile">
+          <Menu vertical id= "navMenuMobile"><h3>Robin Bertuccelli</h3>
+            <Dropdown item icon='list' simple id="navDropdownMobile">
+              <Dropdown.Menu>
+
+                <Dropdown.Item  
+                  name='portfolio'
+                  active={activeItem ==='portfolio'}
+                  onClick={this.handleItemClick}>
+                  <Link to='/portfolio' className='nav-link'> <h3>Portfolio</h3> </Link>
+                </Dropdown.Item>
+
+                <Dropdown.Item>Automotive</Dropdown.Item>
+                <Dropdown.Item>Home</Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+          </Menu>
+      </Container>
+    </div>
+    </div>
+    
     )
   }
 }
