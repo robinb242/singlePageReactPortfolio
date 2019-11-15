@@ -1,9 +1,24 @@
-#navMenu {
+#navMenuDesktop {
 	background-color: #999999;
 
 }
 
+#navContainerMobile {
+	
+}
+
+#navMenuMobile {
+	background-color: #999999;
+}
 
 .nav-link {
 	
+}
+
+@media screen and (max-width: 800px) {
+	#navContainerDesktop {display:none;}
+}
+
+@media screen and (min-width: 800px) {
+	#navContainerMobile {display: none}
 }

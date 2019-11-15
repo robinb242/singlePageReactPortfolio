@@ -8,6 +8,7 @@ h3 {
 #robinCircleLeft {
 	position: relative;
   padding-left: 30px;
+  padding-bottom: 30px;
   width: 200px;
 }
 
@@ -23,10 +24,12 @@ h3 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-#robinsDesk {
-  
+#headerPhoto {
+  padding-top: 50px;
+  margin-top: 40px;
+  position: relative;
 }
+
 .overlay {
   position: absolute; 
   bottom: 0; 
@@ -60,15 +63,8 @@ h3 {
 
 }
 
-Image {
-  text-align: center;
-
-}
 
 .nav-link {
 
 
-}
-.image {
-  text-align: center;
 }

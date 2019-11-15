@@ -17,9 +17,9 @@ class Home extends React.Component {
   render() {
     return <div>
     
-    <Segment textAlign ="center">
+    <Segment id="headerPhoto">
       <Container>
-        <Image id="robinsDesk" src={require('../../assets/images/1stSnowCrop.jpg')} />
+        <Image id="firstSnowImage" src={require('../../assets/images/1stSnowCrop.jpg')} />
           <Container id="headShotIntroText">
             <Image id="robinCircleLeft" src={require('../../assets/images/BertuccelliRobin3Circle2.png')}  floated='left' size='medium' alt='Robin Bertuccelli' /> 
           </Container>
@@ -30,7 +30,7 @@ class Home extends React.Component {
      <h3 id="paragraphOne">
       Hello and thanks for stopping by. I am a Front End Web Developer with 12 years experience creating media for multiple platforms. I prefer
       a minimalist aesthetic and this approach seems optimal for 90% of the websites I have built. A little bling is fun, but design should 
-      complement function and intuitiveness.
+      be functional and intuitive.
     </h3>
    
     <h3 id="paragraph2">
