@@ -72,6 +72,14 @@ export default class Nav extends Component {
             <Dropdown item icon='list' simple id="navDropdownMobile">
               <Dropdown.Menu>
 
+                 <Dropdown.Item  
+                  name='home'
+                  active={activeItem === 'home'}
+                  onClick={this.handleItemClick}>
+                  <Link to="/" className="nav-link">  <h3>Home</h3> </Link>
+                  </Dropdown.Item>
+
+
                 <Dropdown.Item  
                   name='portfolio'
                   active={activeItem ==='portfolio'}
@@ -79,8 +87,50 @@ export default class Nav extends Component {
                   <Link to='/portfolio' className='nav-link'> <h3>Portfolio</h3> </Link>
                 </Dropdown.Item>
 
-                <Dropdown.Item>Automotive</Dropdown.Item>
-                <Dropdown.Item>Home</Dropdown.Item>
+                
+                <Dropdown.Item
+                  name='resume' 
+                  active={activeItem === 'resume'} 
+                  onClick={this.handleItemClick}>
+                  <Link to="/resume" className="nav-link">  <h3>Resume</h3> </Link>
+                </Dropdown.Item>
+
+                <Dropdown.Item
+                  name='contact' 
+                  active={activeItem === 'contact'} 
+                  onClick={this.handleItemClick}>
+                  <Link to="/contact" className="nav-link">  <h3>Contact</h3> </Link>
+                </Dropdown.Item>
+
+                <Dropdown.Item
+                  name='facebookLink' active={activeItem === 'facebookLink'} 
+                  onClick={this.handleItemClick}>
+                  <a href="https://www.facebook.com/robin.bertuccelli/" rel="noreferrer noopener" target="_blank" className="nav-link" title="Facebook">
+                    <Image src={require('../../assets/images/icons/if_facebook.png')}  alt="Facebook" size='mini' />
+                  </a> 
+                </Dropdown.Item>
+
+                <Dropdown.Item
+                  name='githubLink' active={activeItem === 'githubLink'} 
+                  onClick={this.handleItemClick} >
+                  <a href="https://github.com/robinb242" rel="noreferrer noopener" target="_blank" className="nav-link" title="Github">
+                    <Image src={require('../../assets/images/icons/if_social-github.png')}  alt="Facebook" size='mini' /> 
+                  </a> 
+                </Dropdown.Item>
+
+                <Dropdown.Item
+                  name='linkedinLink' active={activeItem === 'linkedinLink'} 
+                  onClick={this.handleItemClick} >
+                  <a href="https://www.linkedin.com/in/robin-bertuccelli/" rel="noreferrer noopener" target="_blank" className="nav-link" title="LinkedIn">
+                    <Image src={require('../../assets/images/icons/if_linkedin.png')}  alt="Facebook" size='mini' /> </a> 
+                  </Dropdown.Item>
+
+                <Dropdown.Item
+                  name='IMMDBLink' active={activeItem === 'IMDBLink'} onClick={this.handleItemClick} >
+                  <a href="https://www.imdb.com/name/nm3031887/?ref_=fn_al_nm_1" rel="noreferrer noopener" target="_blank" className="nav-link" title="Internet Movie Database">
+                  <Image src={require('../../assets/images/icons/imdb.png')}  alt="Facebook" size='mini' /> </a> 
+                </Dropdown.Item>
+
               </Dropdown.Menu>
             </Dropdown>
           </Menu>
