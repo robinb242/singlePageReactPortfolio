@@ -9,10 +9,22 @@
 
 #navMenuMobile {
 	background-color: #999999;
+	max-width: 800px;
+	min-width: 100%;
+	
 }
 
 .nav-link {
 	
+}
+#robinBertuccelli {
+	margin: 5px 3px 0px 3px;
+	line-height: 110%;
+
+}
+
+#webDeveloper {
+	margin: 5px 3px 5px 3px;
 }
 
 @media screen and (max-width: 800px) {

@@ -18,7 +18,7 @@ export default class Nav extends Component {
   <div>  
     <Container id="navContainerDesktop">
       <Menu fixed='top' id="navMenuDesktop">
-        <Menu.Item header><h3>Robin Bertuccelli <br /> Web Developer </h3></Menu.Item>
+        <Menu.Item header><h3>Robin Bertuccelli<br /> Web Developer</h3></Menu.Item>
         <Menu.Item 
           name='home'
           active={activeItem === 'home'}
@@ -68,7 +68,7 @@ export default class Nav extends Component {
 
     <div>
       <Container id="navContainerMobile">
-          <Menu vertical id= "navMenuMobile"><h3>Robin Bertuccelli</h3>
+          <Menu vertical id= "navMenuMobile"><h3 id="robinBertuccelli">Robin Bertuccelli</h3> <h3 id="webDeveloper">Web Developer</h3>
             <Dropdown item icon='list' simple id="navDropdownMobile">
               <Dropdown.Menu>
 
