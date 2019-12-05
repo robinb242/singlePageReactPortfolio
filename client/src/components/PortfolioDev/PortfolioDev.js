@@ -10,19 +10,21 @@ const PortfolioDev =() => (
 
     <div>
     <Container id="container">
-    <Segment id="segmentContainer">
     <h1>PORTFOLIO</h1>
+    <Segment id="segmentContainer">
     <h2>Web Applications</h2>
     
         <Grid>
             <Grid.Row columns={2}>
 
                 <Grid.Column>
+                    
                     <Card className="portfolioCard" id="candiMatchCard">
                        <Image src={require('../../assets/images/candiMatch4x3.png')} size="medium" href="https://protected-lake-93815.herokuapp.com/" rel="noreferrer noopener" target="_blank" />
                         <h5>CandiMatch</h5>
                         <p>Minnesota Candidate Matching Quiz</p>
                     </Card>
+                    
                  </Grid.Column>
 
                  <Grid.Column>
