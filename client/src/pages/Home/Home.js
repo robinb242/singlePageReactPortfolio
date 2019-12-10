@@ -28,16 +28,16 @@ class Home extends React.Component {
     </Segment>
 
   <Segment>
-     <h3 id="paragraphOne">
+     <p id="paragraph1">
       Hello and thanks for stopping by. I am a Front End Web Developer with 12 years experience creating media for multiple platforms. I prefer
       a minimalist aesthetic and this approach seems optimal for 90% of the websites I have built. A little bling is fun, but design should 
-      be functional and intuit.
-    </h3>
+      be functional and intuitive.
+    </p>
    
-    <h3 id="paragraph2">
+    <p id="paragraph2">
      I write code that facilitates the consumption of data. Humans strive to build things, in the 21st century we build with code. I spend my days trying to find the best way to communicate with humans through 
      machines.
-    </h3> 
+    </p> 
   </Segment>
 
       <Portfolio />
