@@ -1,6 +1,6 @@
 {
   "name": "robin",
-  "version": "1.12.1",
+  "version": "1.22.5",
   "description": "React Portfolio for Robin Bertuccelli",
   "main": "server.js",
   "scripts": {
