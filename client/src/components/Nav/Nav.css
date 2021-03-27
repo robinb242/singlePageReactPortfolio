@@ -1,26 +1,26 @@
 #navMenuDesktop {
 	background-color: #999999;
-
 }
 
-#navContainerMobile {
-	
+.navLink {
+	color: #0066CC;
+}
+
+#mobileDropdownContent{
+	display: none;
+  	position: absolute;
+	background-color: blueviolet;
 }
 
 #navMenuMobile {
 	background-color: #999999;
-	max-width: 800px;
-	min-width: 100%;
-	
+	max-width: 100%;
+	min-width: 100%;	
 }
 
-.nav-link {
-	
-}
 #robinBertuccelli {
 	margin: 5px 3px 0px 3px;
 	line-height: 110%;
-
 }
 
 #webDeveloper {

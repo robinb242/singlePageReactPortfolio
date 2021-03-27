@@ -74,7 +74,7 @@ const PortfolioDev =() => (
 
                   <Grid.Column width={6}>
                       <Card className="portfolioCard" id="nytReactSearchCard">
-                         <Image src={require('../../assets/images/nyt-react-search4x3.png')} size="medium" href="https://thawing-atoll-98049.herokuapp.com/" rel="noreferrer noopener" target="_blank" />
+                         <Image src={require('../../assets/images/nyt-react-search4x3.png')} size="medium" href="https://robinb242.github.io/nyt-react-search/" rel="noreferrer noopener" target="_blank" />
                         <h5>New York Times Aricle Search</h5>
                        
                         <p>Search The New York Times Archives
