@@ -3,7 +3,9 @@
   "version": "1.22.5",
   "description": "React Portfolio for Robin Bertuccelli",
   "main": "server.js",
-  "engines": {"node": "15.x"},
+  "engines": {
+    "node": "15.x"
+  },
   "scripts": {
     "server": "node server.js",
     "client": "node scripts/start-client.js",

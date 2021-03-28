@@ -30,7 +30,7 @@ const PortfolioDev =() => (
 
                 <Grid.Column width={6}>
                      <Card className="portfolioCard" id="walkingDeadCard">
-                        <Image src={require('../../assets/images/walkingDeadClickyGame4x3.png')} size="medium" href="https://pacific-reaches-69935.herokuapp.com/" rel="noreferrer noopener" target="_blank" />
+                        <Image src={require('../../assets/images/walkingDeadClickyGame4x3.png')} size="medium" href="https://walking-dead-game.herokuapp.com/" rel="noreferrer noopener" target="_blank" />
                         <h5>Walking Dead themed Clicky Game</h5>
                         <p>A simple game built with React.
                         </p>
