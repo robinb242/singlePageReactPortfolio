@@ -19,7 +19,7 @@ const PortfolioMusicVideo =() => (
                 </Grid.Column>
 
                 <Grid.Column width={6}>
-                    <Card id="dessaGhostsCard">
+                    <Card className="portfolioCard" id="dessaGhostsCard">
                        <Image src={require('../../assets/images/dessaGhosts.png')} size="medium" href="https://www.youtube.com/watch?v=B6A8T6qWPBo" rel="noreferrer noopener" target="_blank" alt="Dessa - Call Off Your Ghosts"/>
                         <h5>Dessa - Call Off Your Ghosts
                         </h5>
@@ -28,7 +28,7 @@ const PortfolioMusicVideo =() => (
                 </Grid.Column>
 
                  <Grid.Column width={6}>
-                    <Card id="bethRestCard">
+                    <Card className="portfolioCard" id="bethRestCard">
                         <Image src={require('../../assets/images/bethRest2.png')} size="medium" href="https://www.youtube.com/watch?v=wPSvDoqUl8Q" rel="noreferrer noopener" target="_blank" alt="Bon Iver - Beth Rest" />
                         <h5>Bon Iver - Beth Rest
                         </h5>
@@ -47,7 +47,7 @@ const PortfolioMusicVideo =() => (
                 </Grid.Column>
 
                 <Grid.Column width={6}>
-                    <Card id="dessaAlibiCard">
+                    <Card className="portfolioCard" id="dessaAlibiCard">
                        <Image src={require('../../assets/images/dessaAlibi.png')} size="medium" href="https://www.youtube.com/watch?v=J2_aY9gYTF0" rel="noreferrer noopener" target="_blank" alt="Dessa - Alibi"/>
                         <h5>Dessa - Alibi </h5>
                         <p>First Assistant Director</p>
@@ -55,7 +55,7 @@ const PortfolioMusicVideo =() => (
                 </Grid.Column>
 
                 <Grid.Column width={6}>
-                     <Card id="owlCityCard">
+                     <Card className="portfolioCard" id="owlCityCard">
                         <Image src={require('../../assets/images/owlCity.png')} size="medium" href="https://www.youtube.com/watch?v=Z3gstWVGnSM&list=RDZ3gstWVGnSM" rel="noreferrer noopener" target="_blank" alt="Owl City - Metropolis"/>
                         <h5>Owl City - Metropolis
                         </h5>

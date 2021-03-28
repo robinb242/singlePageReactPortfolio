@@ -19,7 +19,7 @@ const PortfolioFeatures =() => (
                     </Grid.Column>
 
                     <Grid.Column width={6}>
-                        <Card id="profileCard">
+                        <Card className="portfolioCard" id="profileCard">
                            <Image src={require('../../assets/images/profile200.png')} size="medium" href="https://www.youtube.com/watch?v=2zEgzlin07M" rel="noreferrer noopener" target="_blank" alt="Profile of a Killer"/>
                             <h5>Profile Of A Killer</h5>
                            <p>First Assistant Director
@@ -28,8 +28,8 @@ const PortfolioFeatures =() => (
                     </Grid.Column>
 
                     <Grid.Column width={6}>
-                         <Card id="intoTemptationCard">
-                            <Image src={require('../../assets/images/intoTemptation.png')} size="medium" href="https://www.youtube.com/watch?v=AOwy16r4FKI" rel="noreferrer noopener" target="_blank" alt="Into Temptation" />
+                         <Card className="portfolioCard" id="intoTemptationCard">
+                            <Image src={require('../../assets/images/intoTemptation.png')} size="medium" href="https://www.youtube.com/watch?v=WFoEzf2WTgg&t=10s" rel="noreferrer noopener" target="_blank" alt="Into Temptation" />
                             <h5>Into Temptation
                             </h5>
                             <p>Second Assistant Director
@@ -48,8 +48,8 @@ const PortfolioFeatures =() => (
                     </Grid.Column>
 
                     <Grid.Column width={6}>
-                        <Card id="publicDomainCard">
-                           <Image src={require('../../assets/images/publicDomain.png')} size="medium" href="http://www.dailymotion.com/video/x5afyer" rel="noreferrer noopener" target="_blank" alt="The Public Domain"/>
+                        <Card className="portfolioCard" id="publicDomainCard">
+                           <Image src={require('../../assets/images/publicDomain.png')} size="medium" href="https://www.youtube.com/watch?v=2ffE2gQP-j0" rel="noreferrer noopener" target="_blank" alt="The Public Domain"/>
                             <h5>The Public Domain
                             </h5>
                             <p>First Assistant Director</p>
@@ -57,7 +57,7 @@ const PortfolioFeatures =() => (
                     </Grid.Column>
 
                          <Grid.Column width={6}>
-                            <Card id="jingleDressCard">
+                            <Card className="portfolioCard" id="jingleDressCard">
                              <Image src={require('../../assets/images/jingleDress2.png')} size="medium" href="https://www.youtube.com/watch?v=JdASEjOjJCU" rel="noreferrer noopener" target="_blank" alt="The Jingle Dress"/>
                             <h5>The Jingle Dress
                             </h5>

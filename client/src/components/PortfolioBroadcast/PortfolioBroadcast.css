@@ -1,5 +1,5 @@
 p {
-	font-size: 12px;
+	font-size: 15px;
 }
 
 #neilGaimanCard {
@@ -17,6 +17,6 @@ p {
  	background: #CCCCCC;
 
  }
- #title {
- 	
+ .portfolioCard {
+	 text-align: center;
  }

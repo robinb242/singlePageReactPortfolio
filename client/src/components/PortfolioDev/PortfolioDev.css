@@ -7,8 +7,18 @@
 	
 }
 
-.ui:card:portfolioCard {
+.portfolioCard {
 	text-align: center;
+	
+}
+
+#tonyTheScribeCard {
+	background: #CCCCCC;
+	
+}
+
+#vickyJenkinsCard {
+	background: #CCCCCC;
 }
 
 #candiMatchCard {
