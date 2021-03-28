@@ -15,6 +15,32 @@ const PortfolioDev =() => (
     <h2>Web Applications</h2>
     
         <Grid>
+        <Grid.Row>
+
+<Grid.Column width={2}>
+</Grid.Column>
+
+<Grid.Column width={6}> 
+    <Card className="portfolioCard" id="tonyTheScribeCard">
+       <Image src={require('../../assets/images/tonyTheScribePortfolio.png')} size="medium" href="https://tonythescribe" rel="noreferrer noopener" target="_blank" />
+        <h5>Tony The Scribe</h5>
+        <p>Tony The Scribe aka Tony Williams. Artist/Activist.</p>
+    </Card> 
+</Grid.Column>
+
+<Grid.Column width={6}>
+     <Card className="portfolioCard" id="vickyJenkinsPortfolioCard">
+        <Image src={require('../../assets/images/vickyJenkinsPortfolio.png')} size="medium" href="https://walking-dead-game.herokuapp.com/" rel="noreferrer noopener" target="_blank" />
+        <h5>Vicky Jenkins Professional Website</h5>
+        <p>Minneapolis Wardrobe Stylist
+        </p>
+        </Card>
+</Grid.Column>
+
+<Grid.Column width={2}>
+</Grid.Column>
+
+</Grid.Row>
             <Grid.Row>
 
                 <Grid.Column width={2}>
