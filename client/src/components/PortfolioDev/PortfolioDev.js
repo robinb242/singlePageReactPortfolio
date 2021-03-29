@@ -24,7 +24,7 @@ const PortfolioDev =() => (
     <Card className="portfolioCard" id="tonyTheScribeCard">
        <Image src={require('../../assets/images/tonyTheScribePortfolio.png')} size="medium" href="https://www.tonythescribe.com" rel="noreferrer noopener" target="_blank" />
         <h5>Tony The Scribe</h5>
-        <p>Tony The Scribe aka Tony Williams. Artist/Activist.</p>
+        <p>Tony The Scribe aka Tony Williams.</p>
     </Card> 
 </Grid.Column>
 
